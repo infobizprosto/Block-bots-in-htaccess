@@ -1,5 +1,6 @@
 <IfModule mod_setenvif.c>
 <IfModule mod_headers.c>
+SetEnvIfNoCase User-Agent "^CCBot" bot
 SetEnvIfNoCase User-Agent "^ALittle Client" bot
 SetEnvIfNoCase User-Agent "^Go-http-client/1.1" bot
 SetEnvIfNoCase User-Agent "^TprAdsTxtCrawler" bot
